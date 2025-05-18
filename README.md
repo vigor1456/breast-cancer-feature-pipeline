@@ -6,10 +6,11 @@ This project implements a complete machine learning pipeline to classify breast 
 
 Build a robust and interpretable classification model for breast cancer diagnosis based on tumor measurements, while identifying the most predictive features using multiple techniques.
 
-## Workflow
-
 ## Data Source
+
 "cancer.csv" dataset taken from UCI ML Repository for study purposes. Columns naming follows the distribution of observed characteristics (like radius of affected tissue, texture etc.) distributed in three groups - mean, standard error and worst.
+
+## Workflow
 
 1. **Data loading & preprocessing**
 2. **Exploratory data analysis (EDA)**  
