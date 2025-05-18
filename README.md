@@ -48,7 +48,6 @@ Build a robust and interpretable classification model for breast cancer diagnosi
 - Feature de-correlation via pairwise correlation thresholding
 - Model explainability
 - Modular pipeline design (every step is reusable and testable)
-- Logging instead of print statements for clean output
 
 ## Key Findings
 
