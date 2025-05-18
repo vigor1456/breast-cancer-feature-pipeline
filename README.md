@@ -8,6 +8,9 @@ Build a robust and interpretable classification model for breast cancer diagnosi
 
 ## Workflow
 
+## Data Source
+"cancer.csv" dataset taken from UCI ML Repository for study purposes. Columns naming follows the distribution of observed characteristics (like radius of affected tissue, texture etc.) distributed in three groups - mean, standard error and worst.
+
 1. **Data loading & preprocessing**
 2. **Exploratory data analysis (EDA)**  
    - Structural summary
@@ -48,7 +51,7 @@ Build a robust and interpretable classification model for breast cancer diagnosi
 
 ## Key Findings
 
-- The top features most strongly associated with malignancy across all models and methods are:
+- The top features most strongly associated with malignancy across all models and methods are (as per the naming in the original dataset):
   - `concave points (worst)`
   - `perimeter (worst)`
   - `radius (worst)`
