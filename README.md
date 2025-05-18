@@ -45,3 +45,22 @@ Build a robust and interpretable classification model for breast cancer diagnosi
 - Model explainability
 - Modular pipeline design (every step is reusable and testable)
 - Logging instead of print statements for clean output
+
+## Key Findings
+
+- The top features most strongly associated with malignancy across all models and methods are:
+  - `concave points (worst)`
+  - `perimeter (worst)`
+  - `radius (worst)`
+  - `area (worst)`
+  - `compactness (worst)`
+    
+- These features consistently ranked in the top 5 across:
+  - Logistic regression coefficients
+  - Permutation importance
+  - Random forest importance
+  - Consensus across methods
+
+- These results align with known clinical observations: **tumor size and shape irregularity are key indicators of malignancy**.
+
+- The final models achieved strong classification performance, with ROC AUC scores above **0.98** using logistic regression with selected features.
