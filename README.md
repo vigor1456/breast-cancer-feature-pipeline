@@ -2,11 +2,11 @@
 
 This project implements a complete machine learning pipeline to classify breast cancer tumors as malignant or benign using multiple models and interpretability techniques.
 
-## 🔍 Objective
+## Objective
 
 Build a robust and interpretable classification model for breast cancer diagnosis based on tumor measurements, while identifying the most predictive features using multiple techniques.
 
-## ⚙️ Workflow
+## Workflow
 
 1. **Data loading & preprocessing**
 2. **Exploratory data analysis (EDA)**  
@@ -27,19 +27,19 @@ Build a robust and interpretable classification model for breast cancer diagnosi
    - Top features from each method
    - Heatmaps and pairplots for feature relationships
 
-## 📈 Models Used
+## Models Used
 
 - Logistic Regression (with `GridSearchCV`)
 - Random Forest Classifier
 
-## 📊 Feature Ranking Techniques
+## Feature Ranking Techniques
 
 - Absolute coefficients (logistic regression)
 - Permutation importance (logreg + RF)
 - Tree-based impurity (Random Forest)
 - Consensus voting across methods
 
-## 💡 Key Techniques
+## Key Techniques
 
 - Feature de-correlation via pairwise correlation thresholding
 - Model explainability
